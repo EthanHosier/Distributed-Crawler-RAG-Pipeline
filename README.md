@@ -16,7 +16,7 @@ It features a worker framework I've designed to be easily extendable to cater to
 - Distributed scraper and RAG clusters communicate via Redis queues.
 - Localized text processing, chunking and embedding inference (secure).
 - Autoscaling of clusters using custom Redis queue size metrics (refreshed by Lambda every minute).
-- Emails, phone numbers and links extracted from web pages.
+- Email addresses, phone numbers and links extracted from web pages.
 - Very high test coverage
 
 ## Infrastructure Visualized
