@@ -6,3 +6,4 @@ queue_metrics.zip
 node_modules
 
 libonnxruntime.so.1.20.1
+model.onnx
