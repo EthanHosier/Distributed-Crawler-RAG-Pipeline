@@ -13,11 +13,11 @@ It features a worker framework I've designed to be easily extendable to cater to
 
 ## Features:
 
-- Scraper and RAG clusters which communicate via Redis queues.
-- Local chunking + embedding inference
-- Autoscaling of clusters
-- Custom Scaling metrics based on Redis Queue Size (Lambda used to refresh this metric every 1 min)
-- Extracting of useful contact information from web pages
+- Distributed scraper and RAG clusters communicate via Redis queues.
+- Localized text processing, chunking and embedding inference (secure).
+- Autoscaling of clusters using custom Redis queue size metrics (refreshed by Lambda every minute).
+- Emails, phone numbers and links extracted from web pages.
+- Very high test coverage
 
 ## Infrastructure Visualized
 
