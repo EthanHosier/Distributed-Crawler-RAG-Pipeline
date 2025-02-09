@@ -19,6 +19,9 @@ It features a worker framework I've designed to be easily extendable to cater to
 - Email addresses, phone numbers and links extracted from web pages.
 - Very high test coverage
 
+## AWS Services
+todo
+
 ## Infrastructure Visualized
 
 ![AWS Infrastructure](aws-infra.png)
