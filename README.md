@@ -3,7 +3,7 @@
 Here is the code for my distributed web crawler rag pipeline.
 It features a worker framework I've designed to be easily extendable to cater to **any** task involving worker nodes which communicate via queues.
 
-## Tech Stack:
+## Tech Stack
 
 - Go
 - Typescript
@@ -11,7 +11,7 @@ It features a worker framework I've designed to be easily extendable to cater to
 - Redis
 - AWS
 
-## Features:
+## Features
 
 - Distributed scraper and RAG clusters communicate via Redis queues.
 - Localized text processing, chunking and embedding inference (secure).
@@ -20,7 +20,12 @@ It features a worker framework I've designed to be easily extendable to cater to
 - Very high test coverage
 
 ## AWS Services
-todo
+
+- **VPC & Networking**: VPC, Internet/NAT Gateways, Route Tables, and Security Groups
+- **Compute & Containers**: ECS (Fargate) and ECR
+- **Message Queue**: ElastiCache (Redis)
+- **Serverless & Automation**: Lambda, CloudWatch, App Auto Scaling
+- **Security & Identity**: IAM and Secrets Manager
 
 ## Infrastructure Visualized
 
