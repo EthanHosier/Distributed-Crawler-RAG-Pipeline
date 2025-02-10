@@ -1,4 +1,4 @@
-## Distributed Web Crawler & Rag Pipeline
+## Distributed Web Crawler & RAG Pipeline
 
 Here is the code for my distributed web crawler rag pipeline.
 It features a worker framework I've designed to be easily extendable to cater to **any** task involving worker nodes which communicate via queues.
